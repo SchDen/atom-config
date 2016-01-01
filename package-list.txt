@@ -1,4 +1,5 @@
 editorconfig@1.2.2
+emmet@2.3.17
 file-icons@1.6.13
 highlight-selected@0.11.1
 linter@1.11.3
