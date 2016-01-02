@@ -1,3 +1,4 @@
+docblockr@0.7.3
 editorconfig@1.2.2
 emmet@2.3.17
 file-icons@1.6.13
