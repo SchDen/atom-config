@@ -8,6 +8,9 @@
 # Reveal the current open file in the tree view.
 # cmd-shift-\
 
+# Focus on tree
+'.platform-win32, .platform-linux':
+  'ctrl-0': 'tree-view:toggle-focus'
 
 # vim mode
 'atom-text-editor.vim-mode-plus:not(.insert-mode)':
@@ -19,7 +22,10 @@
 # Unset
 '.platform-darwin atom-text-editor':
   'ctrl-shift-l': 'unset!'
+'.platform-linux atom-text-editor':
+  'ctrl-shift-l': 'unset!'
 
+# Change tab (vim-mode way)
 'body':
   # Next tab
   'ctrl-shift-l': 'pane:show-next-item'
@@ -27,3 +33,9 @@
   'ctrl-shift-h': 'pane:show-previous-item'
   # Save file
   'ctrl-s': 'core:save'
+
+# Autocomplete
+'body atom-text-editor.autocomplete-active':
+  'ctrl-p': 'core:move-up'
+  'ctrl-n': 'core:move-down'
+

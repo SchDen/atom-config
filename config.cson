@@ -1,0 +1,26 @@
+"*":
+  "exception-reporting":
+    userId: "87517ec7-08bc-4ba9-bb05-cef6652759b2"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+    autoHideMenuBar: true
+  "vim-mode": {}
+  editor:
+    invisibles: {}
+    preferredLineLength: 120
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabLength: 4
+    zoomFontWhenCtrlScrolling: false
+    softWrap: true
+  react: {}
+  docblockr: {}
+  whitespace:
+    ensureSingleTrailingNewline: false
+    ignoreWhitespaceOnCurrentLine: false
+  "autocomplete-plus": {}
