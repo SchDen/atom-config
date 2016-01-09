@@ -7,6 +7,6 @@ highlight-selected@0.11.1
 linter@1.11.3
 linter-eslint@5.2.7
 react@0.12.10
-vim-mode-plus@0.13.0
+vim-mode-plus@0.14.1
 vim-mode-visual-block@0.2.14
 
