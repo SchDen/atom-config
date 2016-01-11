@@ -33,9 +33,10 @@
   'ctrl-shift-h': 'pane:show-previous-item'
   # Save file
   'ctrl-s': 'core:save'
+  # Move down in autocomplete
+  'ctrl-n': 'core:move-down'
 
-# Autocomplete
+# Move in autocomplete
 'body atom-text-editor.autocomplete-active':
   'ctrl-p': 'core:move-up'
   'ctrl-n': 'core:move-down'
-

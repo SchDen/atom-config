@@ -1,4 +1,5 @@
 docblockr@0.7.3
+drunken-php@0.2.1
 editorconfig@1.2.2
 emmet@2.3.17
 emmet-simplified@2.5.0
@@ -6,7 +7,9 @@ file-icons@1.6.13
 highlight-selected@0.11.1
 linter@1.11.3
 linter-eslint@5.2.7
+linter-jshint@1.2.2
+project-manager@2.7.1
 react@0.12.10
-vim-mode-plus@0.13.0
+vim-mode-plus@0.15.0
 vim-mode-visual-block@0.2.14
 

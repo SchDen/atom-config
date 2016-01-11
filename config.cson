@@ -9,6 +9,7 @@
       "base16-tomorrow-dark-theme"
     ]
     autoHideMenuBar: true
+    openEmptyEditorOnStart: false
   "vim-mode": {}
   editor:
     invisibles: {}
@@ -24,3 +25,14 @@
     ensureSingleTrailingNewline: false
     ignoreWhitespaceOnCurrentLine: false
   "autocomplete-plus": {}
+  emmet: {}
+  "vim-mode-plus":
+    useClipboardAsDefaultRegister: true
+    incrementalSearch: true
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+    squashDirectoryNames: true
+  "project-manager":
+    environmentSpecificProjects: true
+    closeCurrent: true
