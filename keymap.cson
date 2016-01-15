@@ -40,3 +40,10 @@
 'body atom-text-editor.autocomplete-active':
   'ctrl-p': 'core:move-up'
   'ctrl-n': 'core:move-down'
+
+# Tree view plugin (vim-mode way)
+'.tree-view':
+  'g g': 'core:move-to-top'
+  'shift-g': 'core:move-to-bottom'
+  # @TODO scroll to cursor position
+

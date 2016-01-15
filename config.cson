@@ -18,7 +18,6 @@
     showIndentGuide: true
     tabLength: 4
     zoomFontWhenCtrlScrolling: false
-    softWrap: true
   react: {}
   docblockr: {}
   whitespace:
@@ -36,3 +35,9 @@
   "project-manager":
     environmentSpecificProjects: true
     closeCurrent: true
+  "git-history":
+    showDiff: false
+  "linter-jshint": {}
+  linter:
+    lintOnFlyInterval: 500
+    showErrorPanel: false
