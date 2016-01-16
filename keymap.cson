@@ -25,7 +25,6 @@
 '.platform-linux atom-text-editor':
   'ctrl-shift-l': 'unset!'
 
-# Change tab (vim-mode way)
 'body':
   # Next tab
   'ctrl-shift-l': 'pane:show-next-item'
