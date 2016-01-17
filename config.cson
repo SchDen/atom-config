@@ -1,16 +1,16 @@
 "*":
-  "exception-reporting":
-    userId: "87517ec7-08bc-4ba9-bb05-cef6652759b2"
-  welcome:
-    showOnStartup: false
+  "autocomplete-plus": {}
   core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "linter-jshint"
+    ]
+    openEmptyEditorOnStart: false
     themes: [
       "one-dark-ui"
       "base16-tomorrow-dark-theme"
     ]
-    autoHideMenuBar: true
-    openEmptyEditorOnStart: false
-  "vim-mode": {}
+  docblockr: {}
   editor:
     invisibles: {}
     preferredLineLength: 120
@@ -18,26 +18,35 @@
     showIndentGuide: true
     tabLength: 4
     zoomFontWhenCtrlScrolling: false
-  react: {}
-  docblockr: {}
-  whitespace:
-    ensureSingleTrailingNewline: false
-    ignoreWhitespaceOnCurrentLine: false
-  "autocomplete-plus": {}
   emmet: {}
-  "vim-mode-plus":
-    useClipboardAsDefaultRegister: true
-    incrementalSearch: true
+  "exception-reporting":
+    userId: "87517ec7-08bc-4ba9-bb05-cef6652759b2"
+  "git-history":
+    showDiff: false
+  linter:
+    lintOnFlyInterval: 500
+    showErrorPanel: false
+  "linter-jshint": {}
+  "project-manager":
+    closeCurrent: true
+    environmentSpecificProjects: true
+  react: {}
   "tree-view":
     hideIgnoredNames: true
     hideVcsIgnoredFiles: true
     squashDirectoryNames: true
-  "project-manager":
-    environmentSpecificProjects: true
-    closeCurrent: true
-  "git-history":
-    showDiff: false
-  "linter-jshint": {}
-  linter:
-    lintOnFlyInterval: 500
-    showErrorPanel: false
+  "vim-mode-plus":
+    incrementalSearch: true
+    showHoverSearchCounter: true
+    useClipboardAsDefaultRegister: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+    ignoreWhitespaceOnCurrentLine: false
+".coffee.jsx.source":
+  editor:
+    preferredLineLength: 120
+".js.jsx.source":
+  editor:
+    preferredLineLength: 120
