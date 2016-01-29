@@ -19,3 +19,18 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
+
+'.source.php':
+  'var_dump debug':
+    'prefix': 'vdd'
+    'body': 'var_dump(${1:"crash"}); die();'
+
+# ES6 import
+'.source.js':
+  'es6 import':
+    'prefix': 'imp'
+    'body': 'import ${1:\{ ${2} \\}} from \'${3}\';'
+'.source.jsx':
+  'es6 import':
+    'prefix': 'imp'
+    'body': 'import ${1:\{ ${2} \\}} from \'${3}\';'

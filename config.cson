@@ -18,7 +18,6 @@
     showIndentGuide: true
     tabLength: 4
     zoomFontWhenCtrlScrolling: false
-    fontSize: 15
   emmet: {}
   "exception-reporting":
     userId: "87517ec7-08bc-4ba9-bb05-cef6652759b2"
@@ -34,7 +33,6 @@
   react: {}
   "tree-view":
     hideIgnoredNames: true
-    squashDirectoryNames: true
     hideVcsIgnoredFiles: true
   "vim-mode-plus":
     incrementalSearch: true
@@ -45,9 +43,17 @@
   whitespace:
     ensureSingleTrailingNewline: false
     ignoreWhitespaceOnCurrentLine: false
+  "linter-phpcs":
+    executablePath: "/usr/bin/phpcs"
 ".js.jsx.source":
   editor:
     preferredLineLength: 120
 ".coffee.jsx.source":
+  editor:
+    preferredLineLength: 120
+".html.php.text":
+  editor:
+    preferredLineLength: 120
+".hyperlink.text":
   editor:
     preferredLineLength: 120
