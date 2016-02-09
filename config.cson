@@ -10,10 +10,13 @@
       "one-dark-ui"
       "base16-tomorrow-dark-theme"
     ]
-  docblockr: {}
+  docblockr:
+    auto_add_method_tag: true
+    deep_indent: true
+    lower_case_primitives: true
   editor:
     invisibles: {}
-    preferredLineLength: 120
+    preferredLineLength: 100
     scrollPastEnd: true
     showIndentGuide: true
     tabLength: 4
@@ -38,6 +41,7 @@
     incrementalSearch: true
     showHoverSearchCounter: true
     useClipboardAsDefaultRegister: true
+    flashOnUndoRedo: true
   welcome:
     showOnStartup: false
   whitespace:
@@ -45,6 +49,7 @@
     ignoreWhitespaceOnCurrentLine: false
   "linter-phpcs":
     executablePath: "/usr/bin/phpcs"
+  "highlight-selected": {}
 ".js.jsx.source":
   editor:
     preferredLineLength: 120
@@ -55,5 +60,8 @@
   editor:
     preferredLineLength: 120
 ".hyperlink.text":
+  editor:
+    preferredLineLength: 120
+".json.source":
   editor:
     preferredLineLength: 120
