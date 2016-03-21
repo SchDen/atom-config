@@ -24,6 +24,10 @@
   'var_dump debug':
     'prefix': 'vdd'
     'body': 'var_dump(${1:"crash"}); die();'
+  'AppAssets::getImageUrl':
+    'prefix': 'agetImageUrl'
+    'body': '<?= AppAsset::getImageUrl(\'${1:path}\') ?>'
+
 
 # ES6 import
 '.source.js':

@@ -2,9 +2,6 @@
   "autocomplete-plus": {}
   core:
     autoHideMenuBar: true
-    disabledPackages: [
-      "linter-jshint"
-    ]
     openEmptyEditorOnStart: false
     themes: [
       "one-dark-ui"
@@ -15,6 +12,7 @@
     deep_indent: true
     lower_case_primitives: true
   editor:
+    fontSize: 15
     invisibles: {}
     preferredLineLength: 100
     scrollPastEnd: true
@@ -26,35 +24,35 @@
     userId: "87517ec7-08bc-4ba9-bb05-cef6652759b2"
   "git-history":
     showDiff: false
+  "highlight-selected": {}
   linter:
     lintOnFlyInterval: 500
     showErrorPanel: false
   "linter-jshint": {}
+  "linter-phpcs":
+    executablePath: "/usr/bin/phpcs"
   "project-manager":
     closeCurrent: true
     environmentSpecificProjects: true
   react: {}
+  "source-preview":
+    RefreshDebouncePeriod: 500
   "tree-view":
     hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
   "vim-mode-plus":
+    flashOnUndoRedo: true
     incrementalSearch: true
     showHoverSearchCounter: true
+    stayOnYank: true
     useClipboardAsDefaultRegister: true
-    flashOnUndoRedo: true
   welcome:
     showOnStartup: false
   whitespace:
     ensureSingleTrailingNewline: false
     ignoreWhitespaceOnCurrentLine: false
-  "linter-phpcs":
-    executablePath: "/usr/bin/phpcs"
-  "highlight-selected": {}
-".js.jsx.source":
-  editor:
-    preferredLineLength: 120
 ".coffee.jsx.source":
   editor:
+    autoIndentOnPaste: true
     preferredLineLength: 120
 ".html.php.text":
   editor:
@@ -62,6 +60,15 @@
 ".hyperlink.text":
   editor:
     preferredLineLength: 120
+".ini.source":
+  editor:
+    preferredLineLength: 100
+".js.jsx.source":
+  editor:
+    preferredLineLength: 120
 ".json.source":
   editor:
     preferredLineLength: 120
+".svg.text.xml":
+  editor:
+    preferredLineLength: 100
