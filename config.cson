@@ -1,16 +1,21 @@
 "*":
+  Termrk:
+    defaultHeight: 250
   "autocomplete-plus": {}
   core:
     autoHideMenuBar: true
     disabledPackages: [
-      "linter-jshint"
+      "vim-mode"
+      "linter-phpcs"
     ]
     openEmptyEditorOnStart: false
     themes: [
       "one-dark-ui"
       "base16-tomorrow-dark-theme"
     ]
-  docblockr: {}
+  docblockr:
+    auto_add_method_tag: true
+    lower_case_primitives: true
   editor:
     invisibles: {}
     preferredLineLength: 120
@@ -27,13 +32,14 @@
     lintOnFlyInterval: 500
     showErrorPanel: false
   "linter-jshint": {}
+  "linter-phpcs": {}
   "project-manager":
     closeCurrent: true
     environmentSpecificProjects: true
   react: {}
   "tree-view":
     hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
+  "vim-mode": {}
   "vim-mode-plus":
     incrementalSearch: true
     showHoverSearchCounter: true
@@ -43,11 +49,6 @@
   whitespace:
     ensureSingleTrailingNewline: false
     ignoreWhitespaceOnCurrentLine: false
-  "linter-phpcs":
-    executablePath: "/usr/bin/phpcs"
-".js.jsx.source":
-  editor:
-    preferredLineLength: 120
 ".coffee.jsx.source":
   editor:
     preferredLineLength: 120
@@ -55,5 +56,8 @@
   editor:
     preferredLineLength: 120
 ".hyperlink.text":
+  editor:
+    preferredLineLength: 120
+".js.jsx.source":
   editor:
     preferredLineLength: 120
