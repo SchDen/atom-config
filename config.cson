@@ -1,7 +1,12 @@
 "*":
+  Termrk:
+    defaultHeight: 250
   "autocomplete-plus": {}
   core:
     autoHideMenuBar: true
+    disabledPackages: [
+      "linter-phpcs"
+    ]
     openEmptyEditorOnStart: false
     themes: [
       "one-dark-ui"
@@ -28,8 +33,6 @@
     lintOnFlyInterval: 500
     showErrorPanel: false
   "linter-jshint": {}
-  "linter-phpcs":
-    executablePath: "/usr/bin/phpcs"
   lipsum: {}
   "project-manager":
     closeCurrent: true
@@ -57,7 +60,7 @@
     preferredLineLength: 120
 ".html.php.text":
   editor:
-    preferredLineLength: 120
+    preferredLineLength: 100
 ".hyperlink.text":
   editor:
     preferredLineLength: 120
@@ -66,7 +69,7 @@
     preferredLineLength: 100
 ".js.jsx.source":
   editor:
-    preferredLineLength: 120
+    preferredLineLength: 100
 ".json.source":
   editor:
     preferredLineLength: 120
