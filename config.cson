@@ -1,6 +1,5 @@
 "*":
-  Termrk:
-    defaultHeight: 250
+  Termrk: {}
   "autocomplete-plus": {}
   core:
     autoHideMenuBar: true

@@ -45,3 +45,8 @@
   'g g': 'core:move-to-top'
   'shift-g': 'core:move-to-bottom'
   # @TODO scroll to cursor position
+
+# Package Termrk
+'atom-workspace':
+  'ctrl-shift-space': 'termrk:toggle'
+
