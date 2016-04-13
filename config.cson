@@ -17,7 +17,6 @@
     deep_indent: true
     lower_case_primitives: true
   editor:
-    fontSize: 15
     invisibles: {}
     preferredLineLength: 100
     scrollPastEnd: true
@@ -45,10 +44,13 @@
     hideIgnoredNames: true
   "vim-mode-plus":
     flashOnUndoRedo: true
+    ignoreCaseForSearch: true
     incrementalSearch: true
+    showHoverOnOperate: true
     showHoverSearchCounter: true
     stayOnYank: true
     useClipboardAsDefaultRegister: true
+    wrapLeftRightMotion: true
   welcome:
     showOnStartup: false
   whitespace:
