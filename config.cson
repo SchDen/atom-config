@@ -1,6 +1,5 @@
 "*":
-  Termrk:
-    defaultHeight: 250
+  Termrk: {}
   "autocomplete-plus": {}
   core:
     autoHideMenuBar: true
@@ -33,10 +32,11 @@
     lintOnFlyInterval: 500
     showErrorPanel: false
   "linter-jshint": {}
-  "linter-phpcs": {}
+  lipsum: {}
   "project-manager":
     closeCurrent: true
     environmentSpecificProjects: true
+    sortBy: "last modified"
   react: {}
   "source-preview":
     RefreshDebouncePeriod: 500

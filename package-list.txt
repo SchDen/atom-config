@@ -17,7 +17,6 @@ linter-stylint@2.1.2
 merge-conflicts@1.4.1
 project-manager@2.9.7
 react@0.15.0
-vim-mode@0.65.0
 vim-mode-plus@0.31.0
 vim-mode-visual-block@0.2.15
 
