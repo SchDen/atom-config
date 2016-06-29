@@ -67,11 +67,13 @@
     ignoreCaseForSearch: true
     ignoreCaseForSearchCurrentWord: true
     incrementalSearch: true
+    showHoverOnOperate: true
     showHoverSearchCounter: true
     stayOnYank: true
     useClipboardAsDefaultRegister: true
     useSmartcaseForSearch: true
     useSmartcaseForSearchCurrentWord: true
+    wrapLeftRightMotion: true
   welcome:
     showOnStartup: false
   whitespace:
