@@ -19,11 +19,12 @@
   # Go to right tab
   'ctrl-l': 'window:focus-pane-on-right'
 
-# Unset
 '.platform-darwin atom-text-editor':
   'ctrl-shift-l': 'unset!'
 '.platform-linux atom-text-editor':
+  'ctrl-}': 'atom-ctags:go-to-declaration'
   'ctrl-shift-l': 'unset!'
+  'ctrl-shift-T': 'atom-ctags:return-from-declaration'
 
 'body':
   # Next tab
@@ -34,6 +35,7 @@
   'ctrl-s': 'core:save'
   # Move down in autocomplete
   'ctrl-n': 'core:move-down'
+  'ctrl-shift-T': 'unset!'
 
 # Move in autocomplete
 'body atom-text-editor.autocomplete-active':
@@ -50,3 +52,9 @@
 'atom-workspace':
   'ctrl-shift-space': 'termrk:toggle'
 
+'atom-text-editor.vim-mode-plus.normal-mode':
+  'S': 'vim-mode-plus:surround-smart-word'
+  'y s': 'vim-mode-plus:surround'
+  'm s': 'vim-mode-plus:map-surround'
+  'd s': 'vim-mode-plus:delete-surround-any-pair'
+  'c s': 'vim-mode-plus:change-surround-any-pair'

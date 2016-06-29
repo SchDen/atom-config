@@ -1,20 +1,34 @@
 "*":
-  Termrk: {}
+  Termrk:
+    defaultHeight: 421
+  "atom-ctags":
+    GotoSymbolKey: [
+      "ctrl"
+    ]
+    cmdArgs: "--exclude=protected/runtime --exclude=.happypack --exclude=node_modules --exclude=themes --exclude=web -f .tags "
   "autocomplete-plus": {}
   core:
     autoHideMenuBar: true
     disabledPackages: [
-      "linter-phpcs"
+      "symbols-view"
+      "vim-mode"
+      "vim-surround"
+      "autocomplete-ctags"
     ]
     openEmptyEditorOnStart: false
     themes: [
       "one-dark-ui"
       "base16-tomorrow-dark-theme"
     ]
+  "ctags-status":
+    outerScope: true
   docblockr:
-    auto_add_method_tag: true
     deep_indent: true
+    development_mode: true
     lower_case_primitives: true
+    param_description: false
+    return_description: false
+    spacer_between_sections: true
   editor:
     invisibles: {}
     preferredLineLength: 100
@@ -25,6 +39,8 @@
   emmet: {}
   "exception-reporting":
     userId: "87517ec7-08bc-4ba9-bb05-cef6652759b2"
+  "git-diff-details":
+    enableSyntaxHighlighting: true
   "git-history":
     showDiff: false
   "highlight-selected": {}
@@ -32,6 +48,7 @@
     lintOnFlyInterval: 500
     showErrorPanel: false
   "linter-jshint": {}
+  "linter-phpcs": {}
   lipsum: {}
   "project-manager":
     closeCurrent: true
@@ -43,11 +60,18 @@
   "tree-view":
     hideIgnoredNames: true
   "vim-mode-plus":
+    clearHighlightSearchOnResetNormalMode: true
+    clearRangeMarkerOnResetNormalMode: true
     flashOnUndoRedo: true
+    highlightSearch: true
+    ignoreCaseForSearch: true
+    ignoreCaseForSearchCurrentWord: true
     incrementalSearch: true
     showHoverSearchCounter: true
     stayOnYank: true
     useClipboardAsDefaultRegister: true
+    useSmartcaseForSearch: true
+    useSmartcaseForSearchCurrentWord: true
   welcome:
     showOnStartup: false
   whitespace:

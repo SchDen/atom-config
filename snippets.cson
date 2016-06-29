@@ -20,10 +20,20 @@
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 
+'*.php':
+  '<?=':
+    'prefix': '?='
+    'body': '<?= ${1:$var} ?>'
+
 '.source.php':
   'var_dump debug':
     'prefix': 'vdd'
-    'body': 'var_dump(${1:"crash"}); die();'
+    'body': 'var_dump(${1}); die();'
+
+  '<?=':
+    'prefix': '?='
+    'body': '<?= ${1:"$var"} ?>'
+
   'AppAssets::getImageUrl':
     'prefix': 'agetImageUrl'
     'body': '<?= AppAsset::getImageUrl(\'${1:path}\') ?>'
