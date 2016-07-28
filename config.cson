@@ -6,6 +6,7 @@
       "ctrl"
     ]
     cmdArgs: "--exclude=protected/runtime --exclude=.happypack --exclude=node_modules --exclude=themes --exclude=web -f .tags "
+    disableComplete: true
   "autocomplete-plus": {}
   core:
     autoHideMenuBar: true
@@ -44,6 +45,12 @@
   "git-history":
     showDiff: false
   "highlight-selected": {}
+  jsformat:
+    brace_style: "expand"
+    e4x: true
+    eval_code: true
+    format_on_save: false
+    indent_with_tabs: true
   linter:
     lintOnFlyInterval: 500
     showErrorPanel: false

@@ -12,6 +12,12 @@
 '.platform-win32, .platform-linux':
   'ctrl-0': 'tree-view:toggle-focus'
 
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'ctrl-e': 'emmet:expand-abbreviation'
+
+
+
+
 # vim mode
 'atom-text-editor.vim-mode-plus:not(.insert-mode)':
   # Go to left tab
@@ -58,3 +64,5 @@
   'm s': 'vim-mode-plus:map-surround'
   'd s': 'vim-mode-plus:delete-surround-any-pair'
   'c s': 'vim-mode-plus:change-surround-any-pair'
+
+
