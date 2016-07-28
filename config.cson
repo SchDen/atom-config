@@ -48,8 +48,13 @@
     lintOnFlyInterval: 500
     showErrorPanel: false
   "linter-jshint": {}
-  "linter-phpcs": {}
+  "linter-phpcs":
+    codeStandardOrConfigFile: "/Users/tony777/Projects/web/b54/CodingStandard"
+    disableExecuteTimeout: true
+    disableWhenNoConfigFile: true
   lipsum: {}
+  "php-debug":
+    ServerPort: 9900
   "project-manager":
     closeCurrent: true
     environmentSpecificProjects: true
